@@ -9,7 +9,6 @@ var db = require('../database.js');
 /*
 POST - Upload CSV File
 */
-//app.post('/api/malwareData', upload.single('malwareDataFile'), function(req, res, next) {
 router.route('/malwareData')
 	.post(upload.single('malwareDataFile'), function(req, res, next) {
 	  if(!req.file) {
@@ -39,7 +38,6 @@ router.route('/malwareData')
 /*
 GET - Retrieve malware classification type data (name, count)
 */
-//app.get('/api/classificationType', function(req, res) {
 router.route('/classificationType')
 	.get(function(req, res) {
 	      db.getClassificationTypeCount(function(err, data) {
