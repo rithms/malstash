@@ -2,7 +2,7 @@
 MalStash is a web application that allows users to store their malware data files (CSV) to an online database. The application also provides a table as a visual to provide overall information about each malware classification type that is stored.
 
 ### Demo
-[A demo of this project can be found here](http://192.241.199.180:3000)
+Demo for this project is no longer available.
 
 
 ### Tech Stack
